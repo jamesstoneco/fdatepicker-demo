@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Foundation Fdatepicker Example</title>
   <link rel="stylesheet" href="css/app.css" />
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
   <script src="bower_components/modernizr/modernizr.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
 </head>
 <body>
   <div class="row">
@@ -20,12 +20,26 @@
 
       <form>
 
+        <h3>Example</h3>
+
         <label for="startDate">Fdatepicker Starting Date</label>
         <input type="text" name="startDate" class="fdatepicker" placeholder="ex. Today's Date : 7/11/2015">
 
         <label for="startDateHTML5">HTML5 Starting Date</label>
         <input type="date" name="startDateHTML5">
 
+        <h3>Button Example</h3>
+
+        <div class="row">
+          <div class="medium-6 columns">
+            <button class="fdatepicker">Start Date</button>
+          </div>
+          <div class="medium-6 columns">
+            <button class="fdatepicker">End Date</button>
+          </div>
+        </div>
+
+        <h3>Div / Inline Example</h3>
 
         <label for="">Inline Example</label>
         <div class="fdatepicker" style="height:230px;margin-bottom:15px;"></div>
